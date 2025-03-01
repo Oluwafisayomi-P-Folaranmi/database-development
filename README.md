@@ -7,8 +7,3 @@ This specialisation is a compilation of personal study and training courses on D
 ---
 
 You, safe.
-
-
-1. https://vertabelo.com/blog/7-key-things-to-remember-about-data-model-globalization/
-2. https://vertabelo.com/blog/naming-conventions-in-database-modeling/
-3. https://vertabelo.com/blog/modeling-a-database-for-recording-sales-part-2-creating-tables-for-products-and-services/
