@@ -1,5 +1,6 @@
-DROP TABLE IF EXISTS `orders`;
+DROP TABLE IF EXISTS `Orders`;
 
+-- Create the Products
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
     ClientID VARCHAR(10),
@@ -9,6 +10,7 @@ CREATE TABLE Orders (
     Date DATE
 );
 
+-- Insert the data
 INSERT INTO Orders
 VALUES 
     (1, 'C11', 'P1', 10, 500.00, '2020-09-01'),
