@@ -1,4 +1,4 @@
-# Functions and Stored Procedures
+# Functions
 
 ## Overview of Functions in MySQL
 
