@@ -1,12 +1,10 @@
-CREATE DATABASE  IF NOT EXISTS `employee_directory`;
+CREATE DATABASE IF NOT EXISTS `employee_directory`;
 USE `employee_directory`;
 
 --
 -- Table structure for table `Employee`
 -- 
-
 DROP TABLE IF EXISTS `Employee`;
-
 CREATE TABLE Employee (
   EmployeeID INT NOT NULL PRIMARY KEY,
   EmployeeName VARCHAR(100) NOT NULL UNIQUE,
