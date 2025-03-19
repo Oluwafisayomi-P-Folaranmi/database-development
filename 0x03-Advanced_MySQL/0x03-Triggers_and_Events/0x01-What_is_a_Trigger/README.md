@@ -1,6 +1,6 @@
 ## **What is a Trigger?**
 
-The first question to answer is what's a ***MySQL trigger***? A MySQL trigger is a set of actions available in the form of a ***stored program***. These set of actions are invoked automatically when certain events occur, like:
+The first question to answer is what's a ***MySQL trigger***? A MySQL trigger is a set of actions available in the form of a ***stored program***. These set of actions are invoked automatically when ***certain events*** occur, like:
 
   + **Create a table**
   + **Insert data into a table**
