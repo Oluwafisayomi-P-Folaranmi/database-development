@@ -71,7 +71,7 @@ DROP TRIGGER IF EXISTS order_quantity_check;
 
   + If the **table** is dropped, all associated triggers are also deleted.
   + Including `IF EXISTS` prevents errors if the trigger doesn’t exist.
-  + Use **schema name** before the trigger name for clarity (e.g., `schema_name`.`trigger_name`).
+  + Use **schema name** before the trigger name for clarity (e.g., `<schema_name>`.`<trigger_name>`).
 
 ## **Conclusion**
 
