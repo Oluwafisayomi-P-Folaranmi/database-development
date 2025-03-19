@@ -6,7 +6,7 @@ Let's take a moment to explore the syntax for creating and dropping triggers. A 
 CREATE TRIGGER <trigger_name>
 ```
 
-Make sure that each triggers name is unique within the database.
+Make sure that each trigger's name is unique within the database.
 
 ### **Trigger Type**:
 
