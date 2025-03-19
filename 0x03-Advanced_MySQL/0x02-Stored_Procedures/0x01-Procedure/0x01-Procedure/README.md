@@ -27,7 +27,7 @@ You should use the `DELIMITER;` so as to restore MySQL default delimiter. You ca
 
 ### **Key Differences between Functions and Procedures**
 
-A function in MySQL is also called a stored function. A procedure is called a stored procedure. Basic stored procedures and functions typically represent operations that contain empty parameters, or simple input parameters, and a single SQL statement.
+A function in MySQL is also called a ***stored function***. A procedure is called a ***stored procedure***. Basic stored procedures and functions typically represent operations that contain empty parameters, or simple input parameters, and a single SQL statement.
 
 More complex procedures and functions require the use of additional features like complex parameters, variables, changing delimiters and the use of `BEGIN-END` keywords. They also often require the use of multiple SQL statements in the body of the procedure.
 
