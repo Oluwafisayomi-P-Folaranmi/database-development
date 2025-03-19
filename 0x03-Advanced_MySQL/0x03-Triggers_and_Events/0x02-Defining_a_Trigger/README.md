@@ -37,7 +37,7 @@ FOR EACH ROW
 
 ### **Trigger Logic**:
 
-Next you need to define the trigger's logic. In other words, ***specify what it is that the trigger must achieve***. The trigger can insert, update or delete data, it can even combine these actions as required. If it requires multiple statements then these must be enclosed within a `BEGIN-END` block then execute the statement to create the trigger.
+Next you need to define the trigger's logic. In other words, ***specify what it is that the trigger must achieve***. The trigger can insert, update or delete data, it can even combine these actions as required. If it requires multiple statements then these must be enclosed within a `BEGIN ... END` block then execute the statement to create the trigger.
 
 ```sql
 CREATE TRIGGER <trigger_name>
