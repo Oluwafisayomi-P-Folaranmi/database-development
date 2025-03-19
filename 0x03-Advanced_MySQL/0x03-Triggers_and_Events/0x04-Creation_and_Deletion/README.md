@@ -16,8 +16,8 @@ Lucky Shrub wants to ensure that no negative values are inserted into the `quant
 To create a trigger, use the `CREATE TRIGGER` statement, followed by:
 
   + A **unique trigger name**
-  + The **trigger type** (`BEFORE` or `AFTER`)
-  + The **event type** (`INSERT`, `UPDATE`, or `DELETE`)
+  + The **period to execute the trigger** (`BEFORE` or `AFTER`)
+  + The **event type of the trigger** (`INSERT`, `UPDATE`, or `DELETE`)
   + The **table name**
   + The `FOR EACH ROW` clause to specify row-level execution
   + The **trigger logic**, typically within a `BEGIN ... END` block
