@@ -26,7 +26,7 @@ Don't worry about this for now you'll explore more on trigger types later.
 
 ### **Associated Table**:
 
-Next, we specify which table the trigger must be assigned to and identify how it should be applied to the table.
+Next, we specify ***which table the trigger must be assigned to*** and identify how it should be applied to the table.
 
 ```sql
 CREATE TRIGGER <trigger_name>
