@@ -45,6 +45,7 @@ Before executing the trigger, update the MySQL **delimiter** to avoid conflicts 
 
 ```sql
 DELIMITER //
+
 CREATE TRIGGER `order_quantity_check`
 BEFORE INSERT
 ON `orders`
@@ -53,7 +54,7 @@ BEGIN
     IF NEW.`quantity` < 0 THEN
         SET NEW.`quantity` = 0;
     END IF;
-END; //
+END //
 
 DELIMITER ;
 ```
