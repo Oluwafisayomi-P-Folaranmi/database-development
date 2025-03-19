@@ -3,7 +3,7 @@
 Let's take a moment to explore the syntax for creating and dropping triggers. A trigger is created using the `CREATE TRIGGER` statement.
 
 ```sql
-CREATE TRIGGER <name_of_trigger>
+CREATE TRIGGER <trigger_name>
 ```
 
 Make sure that each triggers name is unique within the database.
