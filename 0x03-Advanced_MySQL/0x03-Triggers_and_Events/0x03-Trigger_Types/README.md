@@ -14,7 +14,7 @@ Triggers typically perform three types of actions:
 - **UPDATE**: Triggers execute when an existing row is modified.
 - **DELETE**: Triggers execute when a row is removed.
 
-Triggers are further classified ***based on when they are executed***:
+Triggers are further classified ***based on when the actions are executed***:
 
   + **BEFORE Triggers**: Execute before an action is performed on a table row.
   + **AFTER Triggers**: Execute after an action is performed on a table row.
