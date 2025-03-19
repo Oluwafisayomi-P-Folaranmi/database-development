@@ -1,4 +1,8 @@
-## 
+## **Overview**
+
+These functions operate on multiple rows and return a single summarized value.
+
+👉 **Use Case**: Generating reports, calculating totals, and summarizing data.
 
 ### **4. Aggregate Functions**  
 - `COUNT(*)`: Counts rows in a result set.  

@@ -1,4 +1,8 @@
-## 
+## **Overview**
+
+These functions are used to manipulate and process text (character and binary) values.
+
+👉 **Use Case**: Extracting specific parts of names, formatting strings for display.
 
 ### **1. String Functions**  
 - `LENGTH(str)`: Returns the length of a string in bytes.  

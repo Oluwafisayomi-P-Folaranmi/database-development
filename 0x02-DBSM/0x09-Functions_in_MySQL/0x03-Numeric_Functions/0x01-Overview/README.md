@@ -1,4 +1,8 @@
-## 
+## **Overview**
+
+These functions perform mathematical operations on numeric data.
+
+👉 **Use Case**: Performing price calculations, statistical analysis.
 
 ### **2. Numeric Functions**  
 - `ABS(x)`: Returns the absolute value.  

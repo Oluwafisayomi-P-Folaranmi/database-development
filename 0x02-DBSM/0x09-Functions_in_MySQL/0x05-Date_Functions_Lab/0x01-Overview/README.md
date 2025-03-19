@@ -1,4 +1,8 @@
-## 
+## **Overview**
+
+These functions deal with date and time values.
+
+👉 **Use Case**: Handling timestamps, scheduling, calculating expiration dates.
 
 ### **3. Date and Time Functions**  
 - `NOW()`: Returns the current date and time.  

@@ -1,4 +1,8 @@
-## 
+## **Overview**
+
+These functions allow working with JSON data in MySQL.
+
+👉 **Use Case**: Storing structured data, parsing JSON payloads in APIs.
 
 ### **6. JSON Functions**  
 - `JSON_OBJECT(key, value, ...)`: Creates a JSON object.  
