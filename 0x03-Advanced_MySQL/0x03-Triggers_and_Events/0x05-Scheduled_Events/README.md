@@ -47,7 +47,7 @@ END;
 To remove an event, use the `DROP EVENT` statement:
 
 ```sql
-DROP EVENT IF EXISTS GenerateRevenueReport;
+DROP EVENT IF EXISTS `schema_name`.GenerateRevenueReport;
 ```
 
 ### **Notes on Scheduled Events**
