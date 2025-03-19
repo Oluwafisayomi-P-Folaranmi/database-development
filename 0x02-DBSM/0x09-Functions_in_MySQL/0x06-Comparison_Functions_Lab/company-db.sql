@@ -1,20 +1,16 @@
 CREATE DATABASE  IF NOT EXISTS `company-db`;
 USE `company-db`;
 
-
 --
 -- Table structure for table `Jewelry`
 -- 
-
 DROP TABLE IF EXISTS `Jewelry`;
-
--- Create the Jewelry
 CREATE TABLE Jewelry (
     ItemID INT PRIMARY KEY,
     Name VARCHAR(50),
     Cost DECIMAL(10, 2)
 );
- 
+
 INSERT INTO Jewelry
 VALUES 
     (1, 'Engagement ring', 2500.00),
