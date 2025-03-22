@@ -86,4 +86,7 @@ INSERT INTO `department_head` (`first_name`, `last_name`, `email`, `phone_number
 We can query the two tables for the information in just one statement:
 
 ```sql
+SELECT *
+FROM `department`, `department_head`
+WHERE `department`.`id` = `department_head`.`department_id`;
 ```
