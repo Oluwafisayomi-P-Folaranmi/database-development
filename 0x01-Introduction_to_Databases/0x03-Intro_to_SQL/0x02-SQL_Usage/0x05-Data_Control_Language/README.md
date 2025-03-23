@@ -1,6 +1,8 @@
 ## **Data Control Language - DCL**
 
-You can also use DCL or data control language *to control access to the database*. For example, using DCL commands, you control access to data stored in the database. `GRANT` and `REVOKE` DDL commands are used to give users access privileges to data, and to revert access privileges already given to users. 
+You can also use DCL or data control language *to control access to the database*. For example, using DCL commands, you control access to data stored in the database.
+
+`GRANT` and `REVOKE` DDL commands are used to give users access privileges to data, and to revert access privileges already given to users. 
 
 ### **DCL**
 
