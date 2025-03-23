@@ -1,6 +1,6 @@
 ## Transaction Control Language (TCL)
 
-Finally, the TCL commands are used to manage transactions in the database. **These are used to manage the changes made to the data in a table by utilizing the DML commands**. It also allows SQL statements to be grouped together into logical transactions.
+Finally, **the TCL commands are used to manage transactions in the database. These are used to manage the changes made to the data in a table by utilizing the DML commands**. It also allows SQL statements to be grouped together into logical transactions.
 
 This category deals with advanced functions or operations in a database. Note that this category can have a generic description of the two main commands. Use the following commands in this category:
 
