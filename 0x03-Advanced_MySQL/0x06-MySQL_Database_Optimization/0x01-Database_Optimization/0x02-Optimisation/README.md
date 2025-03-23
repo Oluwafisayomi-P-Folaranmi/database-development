@@ -1,17 +1,4 @@
-## **Database Optimization?**
-
-***Database optimization is improving the performance of a database system to reduce the time it takes to query, process, and transmit a user's query***. Basically, it's the process of maximizing the speed and efficiency of the database's performance. An optimized database can process a SQL query and return the required data fast. 
-
-***It's also important to note that database performance depends on both hardware and software***. In this lesson, you'll focus on optimizing queries using MySQL software.
-
-#### **Types of SQL Statements**
-
-At this stage of the course, you've encountered a lot of different kinds of SQL statements. These SQL statements can be divided into two categories:
-
-  1. **Data Retrieval Statements** - These return data from the database. These are also known as `SELECT` statements.
-  2. **Data Change Statements** - These alter data within the database, such as `INSERT`, `UPDATE`, and `DELETE`.
-
-Both types of statements require different optimization techniques. Later in this module, we'll explore optimization techniques in detail, but for now, let's look at the basics.
+## **Optimisation**
 
 ### **Optimising Data Retrieval Statements**
 
