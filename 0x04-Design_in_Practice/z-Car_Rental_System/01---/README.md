@@ -75,7 +75,7 @@ The next stage is to find **tables**. To give support to the iterative process 
 
 ---
 
-The basic system entities are in the model but you should notice that we’re missing the core functionality of the system: renting cars and reservations. Remember what we said at the beginning: tables are not only physical objects but also events and transactions. You should add `reservation` and `rental` as tables as well. Here we go:
+The basic system entities are in the model but you should notice that we’re missing the core functionality of the system: renting cars and reservations. Remember what we said at the beginning: tables are not only physical objects but also events and transactions. You should add `reservation` and `rental` as tables as well (due to the core functionalities, actions/functions like rent and also reserve make events `reservation` and `rental`). Here we go:
 
 <img src="img-003.png"/>
 
