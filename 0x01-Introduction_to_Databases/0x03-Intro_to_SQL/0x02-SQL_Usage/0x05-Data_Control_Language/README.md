@@ -6,7 +6,7 @@ You can also use DCL or data control language *to control access to the database
 
 ### **DCL**
 
-You use DCL to deal with the rights and permissions of users of a database system.
+You **use DCL to deal with the rights and permissions of users of a database system**.
 
 You can execute SQL commands to perform different types of operations such as create and drop tables. To do this, **you need to have user rights set up**. This is called **user privileges**.
 
