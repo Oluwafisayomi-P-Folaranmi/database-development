@@ -73,6 +73,16 @@ CREATE TABLE `department` (
      ALTER TABLE table_name
      ADD FOREIGN KEY (column_name) REFERENCES referenced_table(referenced_column);
      ```
+  5. **Syntax to rename a table**
+     ```sql
+     ALTER TABLE <old_table_name>
+     RENAME TO <new_table_name>;
+     ```
+  6. **Syntax to rename a table (Recommended)**
+     ```sql
+     RENAME TABLE <old_table_name>
+     TO <new_table_name>;
+     ```     
 
 Now, going on some hands-on experience with some DDL commands. The `student` table does not have the `hobby` column. We can add it. To add `hobby` column to the `student` table:
 
