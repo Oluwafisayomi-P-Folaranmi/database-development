@@ -19,12 +19,11 @@ Let's explore this concept using the example of a table from an online store tha
 
 The <code>NOT NULL</code> default value is implemented using a SQL statement. A typical <code>NOT NULL</code> SQL statement begins with the creation of a basic table in the database. I can create a table for the table for the online store, I also declare a <code>NOT NULL</code> constraint for each column.
 
-```
+```sql
 CREATE TABLE Customer (
 	customer_id int NOT NULL,
-	customer_name varchar(255) NOT NULL,
-
-	);
+	customer_name varchar(255) NOT NULL
+);
 ```
 
 This makes sure that neither column will accept no values. Now, any operation that attempts to place a null value in these columns will fail, like inserting or updating data.
@@ -38,11 +37,11 @@ To gain a better understanding of default values, let's look at a table that hol
 
 Let's find out how the default command is incorporated into a SQL statement. First, I create the player table. Finally, I add the <code>DEFAULT</code> keyword statement followed by the default value <code>Barcelona</code> for the city column.
 
-```
+```sql
 CREATE TABLE Player (
 	name varchar(50) NOT NULL,
-	city varchar(30) DEFAULT "Barcelona",
-	);
+	city varchar(30) DEFAULT "Barcelona"
+);
 ```
 
 Now when I add data into the table for a new player, I don't need to type in <code>Barcelona</code> for players who are from the city. Instead, it will be inserted automatically.
@@ -96,7 +95,7 @@ This would save Mr. Carl from having to enter “Harrow” repeatedly into the c
 
    4. Once all required columns have been defined, add a closing parenthesis and a semi-colon at the end of the SQL statement as follows:
 
-   ```
+   ```sql
    CREATE TABLE address(id int not null, street varchar(255), postcode varchar(10), town varchar(30) default "Harrow");
    ```
 

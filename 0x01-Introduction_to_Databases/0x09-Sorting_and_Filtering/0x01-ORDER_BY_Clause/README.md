@@ -1,4 +1,4 @@
-# `ORDER BY` Clause Laboratory
+# `ORDER BY` Clause
 
 There are several clauses available in SQL for sorting and filtering data in a table. One of the most useful of these is the `ORDER BY` clause. With this clause, you can reorder the data in a table by one or more columns. For example, in a table that holds data on students in a college, you could sort the data by date of birth. The table would then present all students in the order of oldest to youngest. 
 

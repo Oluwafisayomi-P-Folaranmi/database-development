@@ -1,6 +1,8 @@
-# ALL and ANY
+# Using ALL and ANY
 
-Both `ALL` and `ANY` are operators in SQL. They are typically used in conjunction with comparison operators (`=`, `!=`, `>`, `<`, `>=`, `<=`) and are used in subqueries to compare a value against a set of values returned by a subquery.
+Both `ALL` and `ANY` are operators in SQL.
+
+They are typically used in conjunction with comparison operators (`=`, `!=`, `>`, `<`, `>=`, `<=`) and **are used in subqueries to compare a value against a set of values returned by a subquery**.
 
 
 ## `ALL` Operator

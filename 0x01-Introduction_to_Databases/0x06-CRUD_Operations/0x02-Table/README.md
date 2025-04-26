@@ -37,17 +37,16 @@ I can demonstrate the `ALTER` statement by adding, deleting, and modifying colum
 ```sql
 ALTER TABLE students
 ADD (
-  age INT,
-	country VARCHAR(50),
-	nationality VARCHAR(255)
-	);
-
+	age INT NOT NULL,
+	country VARCHAR(50) NOT NULL DEFAULT "United States of America",
+	nationality VARCHAR(255) NOT NULL DEFAULT "United States of America"
+);
 ```
 
 
 ### `DROP`
 
-Country and nationality are very similar columns and in most cases will probably hold the same type of information so I can write a SQL statement to remove the nationality column just like the last example.
+From the previous alter transaction, `country` and `nationality` are very similar columns and in most cases will probably hold the same type of information so I can write a SQL statement to remove the nationality column just like the last example.
 
 
 ```sql
