@@ -4,7 +4,7 @@ Imagine a scenario where a bookstore has a database that contains two tables. Cu
 
 What exactly is a foreign key? A foreign key is one or more columns used to connect two tables in order to create cross-referencing between them. By **foreign**, developers mean external. **The foreign key in one table, will refer to an external or foreign column in another table**.
 
-Let's find out more about how foreign key works by exploring the tables from the database of an online store. The store is customer table contains information about the customer's name and address. While their order table contains information about each customer's order date and status.
+Let's find out more about how foreign key works by exploring the tables from the database of an online store. The store's `customers` table contains information about the customer's name and address. While their `orders` table contains information about each customer's order date and status.
 
 <img alt="image" src="img_001.png" width="100%" height="50%"/>
 
