@@ -2,7 +2,7 @@
 
 Imagine a scenario where a bookstore has a database that contains two tables. Customer table to track customer information, and an order table to track customers orders. But how can they determine **which customer made which order?** The solution is to add a customer ID column into the order table column as a foreign key. You'll learn how to describe the purpose of a foreign key, and demonstrate how to use it to connect different tables in a relational database.
 
-What exactly is a foreign key? A foreign key is one or more columns used to connect two tables in order to create cross-referencing between them. By **foreign**, developers mean external. The foreign key in one table, we'll refer to an external or foreign column in another table.
+What exactly is a foreign key? A foreign key is one or more columns used to connect two tables in order to create cross-referencing between them. By **foreign**, developers mean external. The foreign key in one table, will refer to an external or foreign column in another table.
 
 Let's find out more about how foreign key works by exploring the tables from the database of an online store. The store is customer table contains information about the customer's name and address. While their order table contains information about each customer's order date and status.
 
