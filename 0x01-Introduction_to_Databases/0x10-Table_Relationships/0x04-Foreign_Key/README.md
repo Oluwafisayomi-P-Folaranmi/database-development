@@ -14,7 +14,7 @@ A foreign key is a great method for establishing a relationship between these ta
 
 <img alt="image" src="img_002.png" width="100%" height="50%"/>
 
-In addition, the referenced table T2 is known as the parent table. While the referencing table T1 is the child table.
+In addition, the referenced table T2 is known as the **parent table**. While the referencing table T1 is the **child table**.
 
 <img alt="image" src="img_003.png" width="100%" height="50%"/>
 
