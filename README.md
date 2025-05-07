@@ -7,3 +7,7 @@ This specialisation is a compilation of personal study and training courses on D
 ---
 
 You, safe.
+
+
+**Free Course:**
+  + https://apps.cognitiveclass.ai/learning/course/course-v1:BDU+DB0101EN+v1/home

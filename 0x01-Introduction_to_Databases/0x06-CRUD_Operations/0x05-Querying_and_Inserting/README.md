@@ -6,7 +6,7 @@ First, let's find out more about the <code>INSERT INTO</code> select statement. 
 
 So what does the <code>INSERT INTO SELECT</code> statement syntax look like? Here's an example. Type:
 
-```
+```sql
 INSERT INTO <target_table_name> (<column_name>)
 SELECT <column_name>
 FROM <source_table_name>;
