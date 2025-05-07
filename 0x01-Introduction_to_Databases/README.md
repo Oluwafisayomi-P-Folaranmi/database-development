@@ -7,8 +7,8 @@ Basic database structure
 SQL data types
 Create and read
 Update and delete
-7. SQL operators
-8. Sorting and filtering data
-9. Designing database schema
-10. Relational database design
-11. Database normalization
+SQL operators
+Sorting and filtering data
+Designing database schema
+Relational database design
+Database normalization
