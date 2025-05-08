@@ -1,12 +1,10 @@
-DROP DATABASE IF EXISTS `restaurant-db`;
-
-CREATE DATABASE `restaurant-db`;
-USE `restaurant-db`;
-
+DROP DATABASE IF EXISTS `restaurant_db`;
+CREATE DATABASE `restaurant_db`;
+USE `restaurant_db`;
 
 -- Create the customers table
 CREATE TABLE customers (
-    customer_id INT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     email VARCHAR(100)
@@ -14,11 +12,11 @@ CREATE TABLE customers (
 
 -- Create the orders table
 CREATE TABLE orders (
-    order_id INT PRIMARY KEY,
-    customer_id INT,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     order_date DATE,
     order_total DECIMAL(10, 2),
-    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+    customer_id INT,
+    CONSTRAINT `fk_orders_customers` FOREIGN KEY (customer_id) REFERENCES customers(id)
 );
 
 -- Insert data into customers table
@@ -32,9 +30,9 @@ VALUES
 -- Insert data into orders table
 INSERT INTO orders
 VALUES
-    (1001, 1, '2024-09-01', 250.00),
-    (1002, 1, '2024-09-01', 250.00),
-    (1003, 1, '2024-09-01', 250.00),        
-    (1004, 2, '2024-09-03', 150.00),
-    (1005, 3, '2024-09-05', 350.00),
-    (1006, 4, '2024-09-06', 100.00);
+    (1, '2024-09-01', 250.00, 1),
+    (2, '2024-09-01', 250.00, 1),
+    (3, '2024-09-01', 250.00, 1),        
+    (4, '2024-09-03', 150.00, 2),
+    (5, '2024-09-05', 350.00, 3),
+    (6, '2024-09-06', 100.00, 4);
