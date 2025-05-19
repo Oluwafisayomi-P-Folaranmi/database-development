@@ -24,9 +24,9 @@ The company has large amounts of data from multiple sources like:
 
 A data warehouse is a centralized data repository that:
 
-- Aggregates data from multiple sources  
-- Stores and processes large volumes of data  
-- Separates data analysis from standard transaction processing  
+- **Aggregates data from multiple sources**
+- **Stores and processes large volumes of data**  
+- **Separates data analysis from standard transaction processing**
 
 Users can query this data to perform data analysis. This type of database is referred to as **Online Analytical Processing (OLAP).**
 
@@ -34,7 +34,7 @@ In contrast, a regular database that handles transactions in real-time is known 
 
 ## **Key Characteristics of a Data Warehouse**
 
-There are four key characteristics of a data warehouse:
+There are four key characteristics of a data warehouse **(you can call it SINT):**
 
 ### **1. Subject-Oriented**
 
@@ -45,19 +45,19 @@ There are four key characteristics of a data warehouse:
 
 - Aggregates data from different sources in a **consistent format**
 - Must handle naming conflicts and varying data types  
-- Global Superstore integrates online purchases, web interactions, and social media data
+- For example: Global Superstore integrates online purchases, web interactions, and social media data
 
 ### **3. Non-Volatile**
 
 - Data is not deleted once it's loaded into the warehouse  
 - Enables long-term analysis  
-- The more data, the better the insights
+- For example: The more data Global Superstore uses, the better the insights
 
 ### **4. Time-Variant**
 
 - Stores data over extended periods  
 - Allows measurement of changes and identification of trends  
-- Global Superstore can analyze several years of sales data to understand profit decline
+- For example: Global Superstore can analyze several years of sales data to understand profit decline
 
 ## **Types of Data in Analytics**
 

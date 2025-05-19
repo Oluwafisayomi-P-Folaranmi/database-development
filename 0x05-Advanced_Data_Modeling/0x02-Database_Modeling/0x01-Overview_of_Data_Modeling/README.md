@@ -2,13 +2,13 @@
 
 When developing a database system, you need to make sure that it operates efficiently and that you can extract information from it quickly. The best way to create such a system is to first design a data model. **With a data model, you can plan how data is stored and accessed within your database before you create the database system.** In this lesson, you'll explore the concept of data modeling and review different levels of data models.
 
-The **jewelry store Mangeta and Gallo or M&G,** are in the process of designing and building a database system to store data on customers, products, and orders. But their current design is very inefficient. However, if M&G first focuses on creating a suitable database model, then they can design a more simplified and logical database system.
+The **jewelry store Mangeta and Gallo or M&G,** are in the process of designing and building a database system to store data on customers, products, and orders. But their current design is very inefficient. However, **if M&G first focuses on creating a suitable database model, then they can design a more simplified and *logical database system*.**
 
-Explore the basics of database modeling, then see if you can assist M&G.
+**Explore the basics of database modeling, then see if you can assist M&G.**
 
 ## **What is Data Modeling?**
 
-Let's begin with the term **data modeling**. **A data model provides a visual representation of data elements and shows how they relate to one another.** In other words, it demonstrates how your database system is structured. This structure helps you to understand how data is stored, accessed, updated, and queried within the database. It also ensures a consistent structure and high-quality data.
+Let's begin with the term **data modeling**. **A data model provides a visual representation of data elements and shows how they relate to one another.** In other words, it demonstrates how your database system is structured. **This structure helps you to understand how data is stored, accessed, updated, and queried within the database.** It also ensures a consistent structure and high-quality data.
 
 Data modeling is used to develop all kinds of databases, particularly entity relational databases. These databases are planned with the use of an **entity relationship diagram.**
 
@@ -24,9 +24,9 @@ Let's take a few moments to explore these different types.
 
 ### **Conceptual Data Models**
 
-You might already be familiar with conceptual data models from previous courses. **A conceptual data model consists of *high abstract level* of data elements called entities.** The relationship between the data elements or entities, links related records of data within your database system.
+You might already be familiar with conceptual data models from previous courses. **A conceptual data model consists of *high abstract level* of data elements called entities. The relationship between the data elements or entities, links related records of data within your database system.**
 
-**The purpose of a conceptual model is to present a *high level* overview of the database system through a visual representation of the entities it contains and their relationship to one another.**
+The purpose of a conceptual model is to present a *high level* overview of the database system through a visual representation of the entities it contains and their relationship to one another.
 
 A conceptual data model defines the most general and business-focused version of a database. **It uses high-level categories (called **entities**) to represent the core things the system must track—without diving into database specifics.** Breaking It Down:
 
@@ -47,7 +47,7 @@ A conceptual data model defines the most general and business-focused version of
 * Examples: *Student*, *Course*, *Book*, *Customer*, *Rental*.
 * Each entity usually has **attributes**, like: *name*, *ID*, *email*, etc.
 
-M&G can make use of a conceptual data model to create their database system. They can present their customers, products, and orders as entities, then document how these entities are related. **The conceptual model provides the basis for the logical data model.**
+M&G can make use of a conceptual data model to create their database system. They can present their customers, products, and orders as entities, then ***document*** how these entities are related. **The conceptual model provides the basis for the logical data model.**
 
 ### **Logical Data Models**
 
