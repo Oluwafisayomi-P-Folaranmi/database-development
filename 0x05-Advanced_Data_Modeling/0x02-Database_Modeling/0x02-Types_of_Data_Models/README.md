@@ -20,7 +20,7 @@ A key advantage of this model is that it's much simpler to use than other models
 
 ## **The Entity Relationship Model**
 
-Next is the entity relationship model. This model is similar to the relational data model. The key difference is that you can present each table as a separate entity by assigning each one its own set of attributes. The model also covers many different types of relationships between entities such as one-to-one, one-to-many, and many-to-many relationships.
+Next is the entity relationship model. **This model is similar to the relational data model. The key difference is that you can present each table as a separate entity by assigning each one its own set of attributes.** The model also covers many different types of relationships between entities such as one-to-one, one-to-many, and many-to-many relationships.
 
 For example, M&G can use an entity relationship model to visualize the relationship between their clients and orders tables. The two entities are connected through the client ID column using a one-to-many relationship. In other words, one or more orders belong to a specific client.
 
