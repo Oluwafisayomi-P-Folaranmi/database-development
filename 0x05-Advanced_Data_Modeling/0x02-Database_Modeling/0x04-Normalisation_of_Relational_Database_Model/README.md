@@ -16,7 +16,7 @@ Let's begin with a quick recap of database normalization. Normalization is an im
 - Avoid data modification implications  
 - Simplify data queries from the database
 
-As you learned earlier, database tables that don't follow the normalization process often give rise to anomalies.
+As you learned earlier, **database tables that don't follow the normalization process often give rise to anomalies.**
 
 ## **Common Anomalies**
 
