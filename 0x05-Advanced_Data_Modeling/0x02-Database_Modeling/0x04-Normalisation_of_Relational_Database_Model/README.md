@@ -26,9 +26,9 @@ The most common of these anomalies include:
 - **Update Anomaly**: This occurs when you attempt to update a record in a table column only to discover that this results in further updates across the table.  
 - **Deletion Anomaly**: This is when the deletion of a record of data causes the deletion of more than one set of data required in the database.
 
-## **First Normal Form (1NF)**
-
 Let’s quickly recap how the three levels of data normalization can be used to help resolve or avoid these anomalies.
+
+## **First Normal Form (1NF)**
 
 **First normal form**, sometimes referred to as **1NF**, **enforces data atomicity and eliminates unnecessary repeating groups of data in database tables.** In other words, there must only be one instance of a value per field. Repeated groups of data cause data redundancy and inconsistency.
 
