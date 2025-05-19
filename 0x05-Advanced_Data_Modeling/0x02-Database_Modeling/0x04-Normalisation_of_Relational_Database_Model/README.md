@@ -30,7 +30,7 @@ Let’s quickly recap how the three levels of data normalization can be used to 
 
 ## **First Normal Form (1NF)**
 
-**First normal form**, sometimes referred to as **1NF**, **enforces data atomicity and eliminates unnecessary repeating groups of data in database tables.** In other words, there must only be one instance of a value per field. Repeated groups of data cause data redundancy and inconsistency.
+**First normal form**, sometimes referred to as **1NF**, **enforces data atomicity (each data should never be divisible) and eliminates unnecessary repeating groups of data in database tables.** In other words, there must only be one instance of a value per field. Repeated groups of data cause data redundancy and inconsistency.
 
 **Example**:  
 M&G's products table stores the engagement and diamond ring products in the same cell of the item column. This violates the atomicity rule. There should only be one instance of a value per column.
