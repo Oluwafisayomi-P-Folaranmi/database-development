@@ -14,7 +14,7 @@ There are many models that can be used to build a database system. In this lesso
 
 ## **The Relational Data Model**
 
-Let's begin with a look at the relational data model. You might already be familiar with the relational data model from previous courses. It's a popular and widely used database model. It represents the database as a collection of relations. Each relation is presented as a table that stores information in the form of rows and columns.
+Let's begin with a look at the relational data model. You might already be familiar with the relational data model from previous courses. It's a popular and widely used database model. **It represents the database as a collection of relations. Each relation is presented as a table that stores information in the form of rows and columns.**
 
 A key advantage of this model is that it's much simpler to use than other models. You can quickly identify and access data. But the relationships between the data in this model can become more difficult to navigate with complex relational database systems. You might also need to structure and organize the data differently when performing data analytics.
 
