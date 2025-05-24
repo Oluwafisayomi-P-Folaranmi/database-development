@@ -45,7 +45,7 @@ You might already be familiar with conceptual data models from previous courses.
 * Examples: *Student*, *Course*, *Book*, *Customer*, *Rental*.
 * Each entity usually has **attributes**, like: *name*, *ID*, *email*, etc.
 
-M&G can make use of a conceptual data model to create their database system. They can present their customers, products, and orders as entities, then ***document*** how these entities are related. **The conceptual model provides the basis for the logical data model.**
+Furthermore, M&G can make use of a conceptual data model to create their database system. They can present their customers, products, and orders as entities, then ***document*** how these entities are related. **The conceptual model provides the basis for the logical data model.**
 
 ### **Logical Data Models**
 
