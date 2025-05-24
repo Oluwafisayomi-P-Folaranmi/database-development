@@ -8,7 +8,7 @@ The **jewelry store Mangeta and Gallo or M&G,** are in the process of designing 
 
 ## **What is Data Modeling?**
 
-Let's begin with the term **data modeling**. **A data model provides a visual representation of data elements and shows how they relate to one another.** In other words, it demonstrates how your database system is structured. **This structure helps you to understand how data is stored, accessed, updated, and queried within the database.** It also ensures a consistent structure and high-quality data.
+Let's begin with the term **data modeling**. **A data model provides a visual representation of data elements and shows how they relate to one another.** In other words, it demonstrates how your database system is structured. **This structure helps you to understand how data is stored, accessed (queried), and updated within the database.** It also ensures a consistent structure and high-quality data.
 
 Data modeling is used to develop all kinds of databases, particularly entity relational databases. These databases are planned with the use of an **entity relationship diagram.**
 
