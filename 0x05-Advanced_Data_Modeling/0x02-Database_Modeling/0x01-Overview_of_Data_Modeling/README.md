@@ -26,9 +26,9 @@ Let's take a few moments to explore these different types.
 
 You might already be familiar with conceptual data models from previous courses. **A conceptual data model consists of *high abstract level* of data elements called entities. The relationship between the data elements or entities, links related records of data within your database system.**
 
-The purpose of a conceptual model is to present a *high level* overview of the database system through a visual representation of the entities it contains and their relationship to one another.
+**The purpose of a conceptual model is to present a *high level* overview of the database system through a visual representation of the entities it contains and their relationship to one another.**
 
-A conceptual data model defines the most general and business-focused version of a database. **It uses high-level categories (called **entities**) to represent the core things the system must track—without diving into database specifics.** Breaking It Down:
+**A conceptual data model defines the most general and business-focused version of a database. **It uses high-level categories (called "entities") to represent the core things the system must track — without diving into database specifics.** Breaking It Down:
 
 #### **Conceptual Data Model**:
 
