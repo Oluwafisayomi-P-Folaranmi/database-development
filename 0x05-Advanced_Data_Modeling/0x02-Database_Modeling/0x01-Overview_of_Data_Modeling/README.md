@@ -2,7 +2,7 @@
 
 When developing a database system, you need to make sure that it operates efficiently and that you can extract information from it quickly. The best way to create such a system is to first design a data model. **With a data model, you can plan how data is stored and accessed within your database before you create the database system.** In this lesson, you'll explore the concept of data modeling and review different levels of data models.
 
-The **jewelry store Mangeta and Gallo or M&G,** are in the process of designing and building a database system to store data on customers, products, and orders. But their current design is very inefficient. However, **if M&G first focuses on creating a suitable database model, then they can design a more simplified and *logical database system*.**
+The **jewelry store Mangeta and Gallo or M&G,** are in the process of designing and building a database system to store data on customers, products, and orders. But their current design is very inefficient. However, **if M&G first focuses on creating a suitable database model, then they can design a more simplified and logical database system.**
 
 **Explore the basics of database modeling, then see if you can assist M&G.**
 
