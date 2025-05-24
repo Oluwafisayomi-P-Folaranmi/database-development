@@ -49,7 +49,7 @@ Furthermore, **M&G can make use of a conceptual data model to create their datab
 
 ### **Logical Data Models**
 
-Again, you should have a basic familiarity with examples of a logical data model from previous courses. **The logical data model builds on the conceptual model by providing a "detailed, technology-independent blueprint" of the data that includes **entities, their attributes, and the relationships between them**. It builds upon the conceptual model by adding more **structure and precision**, such as:
+Again, you should have a basic familiarity with examples of a logical data model from previous courses. **The logical data model builds on the conceptual model by providing a "detailed, technology-independent blueprint" of the data that includes entities, their attributes, and the relationships between them**. It builds upon the conceptual model by adding more structure and precision, such as:
 
 * It identifies the **attribute names and data types** (e.g., `name: VARCHAR`, `age: INTEGER`)
 * It defines the **primary keys**
